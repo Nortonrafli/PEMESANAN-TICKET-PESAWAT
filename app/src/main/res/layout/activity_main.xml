@@ -38,7 +38,7 @@
             android:nestedScrollingEnabled="false">
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/editTextNama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Nama" />
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/editTextAlamat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Alamat" />
@@ -62,6 +62,7 @@
             android:text="Jenis Kelamin" />
 
         <RadioGroup
+            android:id="@+id/RadioGroupKelamin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -84,9 +85,9 @@
             android:text="Type" />
 
         <RadioGroup
+            android:id="@+id/RadioGroupType"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-
             <RadioButton
                 android:id="@+id/radioButton3"
                 android:layout_width="wrap_content"
@@ -107,28 +108,25 @@
             android:text="Kelas" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/checkBox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="false"
             android:text="Bisnis" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:checked="false"
+            android:text="Ekonomi" />
 
-            <CheckBox
-                android:id="@+id/checkBox3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Eksekutif" />
-
-            <CheckBox
-                android:id="@+id/checkBox2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ekonomi" />
-        </LinearLayout>
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Eksekutif" />
 
         <TextView
             android:id="@+id/textView5"
@@ -155,15 +153,15 @@
             android:entries="@array/tujuan" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:id="@+id/buttonOk"
+            android:layout_width="360dp"
             android:layout_height="wrap_content"
             android:text="Pesan" />
 
         <TextView
             android:id="@+id/textViewHasil"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="Hasil" />
 
     </LinearLayout>
