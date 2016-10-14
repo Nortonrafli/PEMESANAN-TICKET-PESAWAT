@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="asal">
+        <item>Surabaya</item>
+        <item>Jakarta</item>
+        <item>Malang</item>
+        <item>Bali</item>
+        <item>Makasar</item>
+        <item>DIY</item>
+        <item>Padang</item>
+        <item>Aceh</item>
+        <item>Samarinda</item>
+        <item>Raja Ampat</item>
+        <item>Sorong</item>
+        <item>JayaPura</item>
+        <item>Ambon</item>
+        <item>Lombok</item>
+        <item>Batam</item>
+
+    </string-array>
+    <string-array name="tujuan">
+        <item>Surabaya</item>
+        <item>Jakarta</item>
+        <item>Malang</item>
+        <item>Bali</item>
+        <item>Makasar</item>
+        <item>DIY</item>
+        <item>Padang</item>
+        <item>Aceh</item>
+        <item>Samarinda</item>
+        <item>Raja Ampat</item>
+        <item>Sorong</item>
+        <item>JayaPura</item>
+        <item>Ambon</item>
+        <item>Lombok</item>
+        <item>Batam</item>
+    </string-array>
+</resources>
